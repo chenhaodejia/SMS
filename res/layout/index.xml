@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    >
+    <LinearLayout android:id="@+id/top_layout"
+     android:orientation="horizontal" android:layout_width="fill_parent"
+     android:layout_height="wrap_content" android:background="@drawable/title_bar"
+     android:layout_weight="0">
+    
+     <ImageView android:id="@+id/logo" android:layout_width="wrap_content"
+     android:layout_height="wrap_content" android:src="@drawable/logo" 
+     />
+     
+     
+      <Button android:layout_width="wrap_content"
+     android:layout_height="wrap_content" 
+     android:background="@drawable/search_button" 
+      android:layout_marginLeft="90dip"
+     />
+     
+    
+     </LinearLayout>
+     
+	<Gallery android:id="@+id/gallery" android:layout_width="fill_parent" android:layout_height="wrap_content"
+	 android:layout_alignParentLeft="true"
+	 android:layout_weight="0"
+	/>
+	
+
+ <LinearLayout 
+      android:id="@+id/linearlayout_01" 
+      android:layout_width="wrap_content" 
+      android:layout_marginLeft="5dip" 
+      android:layout_centerVertical="true"
+      android:layout_height="wrap_content" 
+      android:orientation="vertical" 
+      android:background="@color/miwhite"
+       >
+		
+<RelativeLayout 
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:paddingTop="5dip"
+  android:paddingBottom="5dip">
+  
+    
+    <ImageView 
+      android:id="@+id/image_item_1" 
+      android:layout_width="wrap_content" 
+      android:layout_centerVertical="true"
+      android:layout_height="wrap_content" 
+      android:src="@drawable/icon_moniter"
+      />
+  
+   <LinearLayout 
+      android:id="@+id/linearlayout_out_1" 
+      android:layout_width="wrap_content" 
+      android:layout_marginLeft="5dip" 
+      android:layout_centerVertical="true"
+      android:layout_height="wrap_content" 
+      android:orientation="vertical" 
+      android:layout_toRightOf="@id/image_item_1">
+    <TextView 
+        android:id="@+id/text_item_1" 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:layout_centerHorizontal="true"
+        android:textSize="16sp" 
+        android:textStyle="bold"         
+        android:textColor="#000000"
+        android:text="@string/startmoritor" 
+   />
+  <LinearLayout android:id="@+id/linearlayout_in_1" 
+      android:layout_width="180dip" 
+      android:layout_height="wrap_content" 
+      android:orientation="horizontal" 
+      android:layout_marginTop="5dip">
+   <TextView android:id="@+id/text_item_01" 
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content" 
+       android:layout_centerHorizontal="true"
+       android:textSize="12sp" 
+       android:textStyle="italic" 
+       android:text="@string/main_service1" 
+   />
+     </LinearLayout>
+    </LinearLayout>
+    
+  <ImageView android:id="@+id/image_item_01" 
+      android:layout_width="1dip" 
+      android:src="@drawable/tab_divider" 
+      android:layout_centerVertical="true"
+      android:layout_height="wrap_content" 
+      android:layout_toRightOf="@id/linearlayout_out_1"  
+      android:layout_marginLeft="15dip"/>
+  
+  <LinearLayout android:id="@+id/linearlayout_out_01" 
+      android:layout_width="wrap_content" 
+      android:layout_marginLeft="10dip" 
+      android:layout_centerVertical="true"
+      android:layout_height="wrap_content" 
+      android:orientation="vertical" 
+      android:layout_toRightOf="@id/image_item_01">
+        
+     <Button
+       android:id="@+id/btnStart_1"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="@string/start" /> 
+  
+  </LinearLayout>
+ 
+</RelativeLayout>
+	
+
+<RelativeLayout 
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:paddingTop="5dip"
+  android:paddingBottom="5dip">
+  
+    
+    <ImageView 
+      android:id="@+id/image_item_2" 
+      android:layout_width="wrap_content" 
+      android:layout_centerVertical="true"
+      android:layout_height="wrap_content" 
+      android:src="@drawable/icon_agent"
+      />
+  
+   <LinearLayout 
+      android:id="@+id/linearlayout_out_2" 
+      android:layout_width="wrap_content" 
+      android:layout_marginLeft="5dip" 
+      android:layout_centerVertical="true"
+      android:layout_height="wrap_content" 
+      android:orientation="vertical" 
+      android:layout_toRightOf="@id/image_item_2">
+    <TextView 
+        android:id="@+id/text_item_02" 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:layout_centerHorizontal="true"
+        android:textSize="16sp" 
+        android:textStyle="bold"         
+        android:textColor="#000000"
+        android:text="@string/starttrust"
+   />
+  <LinearLayout android:id="@+id/linearlayout_in_2" 
+      android:layout_width="180dip" 
+      android:layout_height="wrap_content" 
+      android:orientation="horizontal" 
+      android:layout_marginTop="5dip">
+   <TextView android:id="@+id/text_item_2" 
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content" 
+       android:layout_centerHorizontal="true"
+       android:textSize="12sp" 
+       android:textStyle="italic" 
+       android:text="@string/main_service2"
+   />
+     </LinearLayout>
+    </LinearLayout>
+    
+  <ImageView android:id="@+id/image_item_02" 
+      android:layout_width="1dip" 
+      android:src="@drawable/tab_divider" 
+      android:layout_centerVertical="true"
+      android:layout_height="wrap_content" 
+      android:layout_toRightOf="@id/linearlayout_out_2"  
+      android:layout_marginLeft="15dip"/>
+  
+  <LinearLayout android:id="@+id/linearlayout_out_02" 
+      android:layout_width="wrap_content" 
+      android:layout_marginLeft="10dip" 
+      android:layout_centerVertical="true"
+      android:layout_height="wrap_content" 
+      android:orientation="vertical" 
+      android:layout_toRightOf="@id/image_item_02">
+        
+     <Button
+       android:id="@+id/btnStart_2"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="@string/start" /> 
+  
+  </LinearLayout>
+ 
+</RelativeLayout>
+
+<RelativeLayout 
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:paddingTop="5dip"
+  android:paddingBottom="5dip">
+  
+    
+    <ImageView 
+      android:id="@+id/image_item_3" 
+      android:layout_width="wrap_content" 
+      android:layout_centerVertical="true"
+      android:layout_height="wrap_content"
+      android:src="@drawable/icon_reply" 
+      />
+  
+   <LinearLayout 
+      android:id="@+id/linearlayout_out_3" 
+      android:layout_width="wrap_content" 
+      android:layout_marginLeft="5dip" 
+      android:layout_centerVertical="true"
+      android:layout_height="wrap_content" 
+      android:orientation="vertical" 
+      android:layout_toRightOf="@id/image_item_3">
+    <TextView 
+        android:id="@+id/text_item_03" 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:layout_centerHorizontal="true"
+        android:textSize="16sp" 
+        android:textStyle="bold"         
+        android:textColor="#000000"
+        android:text="@string/startreply"
+   />
+  <LinearLayout android:id="@+id/linearlayout_in_3" 
+      android:layout_width="180dip" 
+      android:layout_height="wrap_content" 
+      android:orientation="horizontal" 
+      android:layout_marginTop="5dip">
+   <TextView android:id="@+id/text_item_3" 
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content" 
+       android:layout_centerHorizontal="true"
+       android:textSize="12sp" 
+       android:textStyle="italic" 
+       android:text="@string/main_service3"
+   />
+     </LinearLayout>
+    </LinearLayout>
+    
+  <ImageView android:id="@+id/image_item_03" 
+      android:layout_width="1dip" 
+      android:src="@drawable/tab_divider" 
+      android:layout_centerVertical="true"
+      android:layout_height="wrap_content" 
+      android:layout_toRightOf="@id/linearlayout_out_3"  
+      android:layout_marginLeft="15dip"/>
+  
+  <LinearLayout android:id="@+id/linearlayout_out_03" 
+      android:layout_width="wrap_content" 
+      android:layout_marginLeft="10dip" 
+      android:layout_centerVertical="true"
+      android:layout_height="wrap_content" 
+      android:orientation="vertical" 
+      android:layout_toRightOf="@id/image_item_03">
+        
+     <Button
+       android:id="@+id/btnStart_3"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="@string/start" /> 
+  
+  </LinearLayout>
+ 
+</RelativeLayout>
+
+  <LinearLayout android:id="@+id/linearlayout_empty" 
+      android:layout_width="fill_parent" 
+      android:layout_height="160dip" 
+      android:orientation="horizontal" 
+      android:background="@color/miwhite"
+      >
+
+ </LinearLayout>
+	
+	
+   </LinearLayout>	
+	
+</LinearLayout>

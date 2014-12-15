@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- base -->
+    <string name="delete">删除</string>
+    <string name="save">保存</string>
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+    <string name="alert">提示</string>
+    <string name="reply">回复</string>
+    <string name="send">发送</string>
+    <string name="entersms">请输入内容</string>
+    <string name="sample">模板</string>
+    <string name="first">首页</string>
+    <string name="setting">设置</string>
+    <string name="contacts">联系人</string>
+    <string name="app_name">短信乐</string>
+ 
+    
+    <!-- main.java+main.xml -->
+    <string name="start">启动</string>
+    <string name="end">停止</string>
+    <string name="startmoritor">节日监控</string>
+    <string name="starttrust">后台代理</string>
+    <string name="startreply">快捷回复</string>
+    <string name="smstoast_randomsendfailed">随机发送失败，可能没有设置默认发送的模板</string>
+    <string name="main_service1">启动节日监控后，才可以对您收到的短信进行节日相关处理。不过请您放心，它们仍会被收到您的短信收件箱中。</string>
+    <string name="main_service2">启动后台托管后，所有短信自动收入列表，不再弹出提示。待您有空时，可在待回列表中找到它们，进行相关处理。</string>
+    <string name="main_service3">启动快捷回复后，系统就会按照您选择的短信模版进行回复。不过请放心，在回复短信之前会征求您的意见的。</string>
+
+    <string name="waiting_list">待回列表</string>
+    <string name="sample_manage">模板管理</string>
+    <string name="tab_index">首页</string>
+    <string name="tab_type">模板</string>
+    <string name="app_rank">回复</string>
+    <string name="app_manager">群发</string>
+    <string name="tab_type_title">应用分类</string>
+    <string name="tab_type_moban">短信模板</string>
+    <string name="tab_type_reply">回复列表</string>
+    <string name="tab_type_sent">短信群发</string>
+    
+    <!-- service.java+receiver.java -->
+    <string name="bind_service">节日短信监控已启动</string>
+    <string name="unbind_service">节日短信监控已关闭</string>
+    <string name="start_succeed">启动成功</string>
+    <string name="stop_succeed">停止成功</string>
+    <string name="stop_failed">未启动监控</string>
+
+    <!-- smsadd.java+add.xml -->
+    <string name="add_succeed">添加成功</string>
+    <string name="edit_succeed">修改成功</string> 
+    <string name="add_tv_add_to_fast_reply">加入快捷回复短信库</string>
+    
+    <!-- deallist.java+deallist.xml -->
+    <string name="delete_comfirm">确定删除这条预存消息吗？</string>
+    <string name="delete_succeed">删除成功</string>
+    <string name="deallist_tv">短信模板列表</string>
+    <string name="deallist_btn_addsample">添加短信模板</string>
+    
+    <!-- msgsend.java+msgsend.xml -->
+    <string name="_reply">回复: </string>
+    <string name="smssend_willsend">将发送给</string>
+    <string name="smssend_tonfriend">位好友</string>
+    <string name="smssend_succeed">发送成功</string>
+    <!-- smswaitlist.xml -->
+    <string name="remove_from_list">移出列表</string>
+    <string name="from">来自：</string>
+    <string name="view_msg">查看短信</string>
+    
+    <!-- smsex.db  -->
+   <string-array name="sample">
+        <item name="sample_1">春节年年过，短信年年发，问候年年新，友情年年长。一则短信，一份友情;一声问候，一生朋友!祝家和人吉，万事顺意，春节快乐!</item>
+        <item name="sample_2">春节年年过，年年都热闹;年岁月月增，岁岁都精彩;年年好运常相伴，岁岁平安喜事漆;祝您蛇年：幸福美满!健健康康!开开心心!快快乐乐!</item>
+        <item name="sample_3">春节期间天气变化无常，小心着凉，再次关心你几句：要一戒脱衣，二戒晚归，三戒冷饮，四戒挑食，五戒冷浴，六戒酗酒，七戒登被子，八戒你明白了吗?春节快乐。</item>
+        <item name="sample_4">春节是“节”，祝你芝麻开花节节高;春节是“戒”，祝你戒愁戒忧戒烦恼;春节是“结”，祝你结朋结友结欢乐;春节是“接”，祝你接金接银财富多。</item>
+        <item name="sample_5">春节四大幸事：除夕订到年夜饭，出门拦到出租车，串门拿到压岁钱，初一放假到十五;祝你正财、偏财、横财，财源滚滚;亲情、友情、私情，情情如意!</item>
+        <item name="sample_6">锣鼓在美好中敲响，笑容在喜悦中绽放，灯笼在吉祥中摇摆，欢歌在喜庆中传唱，日子在美妙中飞度，生活在幸福中陶醉。马年到了，祝你马年大吉，万事如意!心想事成，天天开心!</item>
+        <item name="sample_7">春节送你一件外套，前面是平安，后面是幸福，吉祥是领子，如意是袖子，快乐是扣子，口袋里满是温暖，穿上吧，让它相伴你的每一天!新年快乐!</item>
+        <item name="sample_8">新春之际祝您：东行吉祥，南走顺利，西出平安，北走无虑，中有健康;左逢源，右发达;内积千金，外行好运!祝新春快乐!</item>
+        <item name="sample_9">一月一日春节，一个月亮，一个太阳，组成了新年;祝福你，新的一年，每天都有月光一样美丽的机遇;祝福你，新的一年，每天都有阳光一样灿烂的好心情!</item>
+        <item name="sample_10">月儿圆圆挂天边，荷叶圆圆水中间。梦想圆圆都实现，成功圆圆舞翩跹。快乐圆圆永不变，祝福圆圆情无限：中秋花好月又圆，幸福与你两团圆。</item>
+        <item name="sample_11">又是一年落叶黄，一层秋雨一层凉。整日工作挺辛苦，天凉别忘加衣裳。保重身体多餐饭，珍惜友情常想想。信短情长言未尽，唯愿朋友多安康。中秋快乐，合家团圆!</item>
+        <item name="sample_12">圆圆的月儿天上挂，圆圆的月饼香天涯，圆圆的快乐美如花，圆圆的祝福到你家：美满日子玉润珠圆，幸福生活花好月圆，合家吉祥永团圆。</item>
+        <item name="sample_13">让最圆的明月陪你和我，让明月传达我的心愿与祝福。祝你中秋佳节快乐，月圆人圆事事圆满!</item>
+        <item name="sample_14">扬起合作的帆，走向成功明天，感谢您一直以来的支持，中秋节之际祝福你生意兴隆，财源滚滚，大展宏图，天天好运，中秋快乐，愿我们合作久远。</item>
+        <item name="sample_15">中秋节送祝福：一福，生意兴隆，财源不断;二福，人财两旺，幸福潺潺;三福，真诚相伴，谢意连连;四福，事业再忙，休息不减;五福，名利双收，世人艳羡。中秋佳节五福临门吉祥满院。</item>
+        <item name="sample_16">中秋佳节月团圆，良辰美景月饼香;桂花香气飘四方，嫦娥撒福照万年;花好月圆祝福你，好梦圆圆好事连;生活美满事业高，阖家欢乐人团圆!中秋快乐!</item>
+    </string-array>
+   
+        
+    <!-- smstoast.java+smstoast.xml -->
+    <string name="random_reply">随机自动回复</string>
+    <string name="save_sample">存为模板</string>
+    <string name="save_msg_to_reply_list">放入待回</string>
+    <string name="sample_reply">模板回复</string>
+    <string name="enter_nickname">请输入别名</string>
+    
+    <string name="editor_hint">文字编辑框</string>
+</resources>

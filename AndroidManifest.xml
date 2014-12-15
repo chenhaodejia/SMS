@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cn.nwnu.android.sms"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="8" 
+        android:targetSdkVersion="17"/>
+    
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.WRITE_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+
+    <application
+        android:name="cn.nwnu.android.sms.SMSEX"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >     
+        <activity
+            android:name="cn.nwnu.android.sms.view.SplashActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+          
+       
+        <activity
+            android:name="cn.nwnu.android.sms.view.TextEditor">                   
+        </activity> 
+        <activity
+            android:name="cn.nwnu.android.sms.view.MutiSend">
+        </activity>       
+        <activity
+            android:name="cn.nwnu.android.sms.view.IndexActivity">
+        </activity>        
+        <activity
+            android:name="cn.nwnu.android.sms.view.FirstActivity">
+        </activity>     
+        <activity
+            android:name="cn.nwnu.android.sms.view.SmsSend">
+        </activity>
+        <activity android:name="cn.nwnu.android.sms.view.SMSToast"
+        		  android:theme="@android:style/Theme.Dialog">
+        </activity>
+		<activity android:name="cn.nwnu.android.sms.view.DealList">
+        </activity>
+        <activity android:name="cn.nwnu.android.sms.view.SMSWaitList">
+        </activity>
+        <activity android:name="cn.nwnu.android.sms.view.SMSAdd" 
+        	android:windowSoftInputMode="stateVisible">
+        </activity>
+        
+        <service android:name="cn.nwnu.android.sms.recevier.SmsService">
+			<intent-filter>
+				<action android:name="cn.nwnu.android.sms.MSG_SERVICE" />
+				<category android:name="android.intent.category.default" />
+			</intent-filter>
+		</service>
+    </application>
+
+</manifest>

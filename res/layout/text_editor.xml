@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:background="@color/miwhite">
+	
+   <LinearLayout android:id="@+id/top_layout"
+     android:orientation="horizontal" 
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content" 
+     android:background="@drawable/title_bar"
+     android:layout_weight="0">
+    
+     <TextView android:id="@+id/logo" 
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content" 
+         android:text="@string/tab_type_sent" 
+         android:layout_gravity="center_vertical"
+         android:textColor="@android:color/white"
+         android:textSize="20sp" 
+         android:layout_marginLeft="10dip"
+     />   
+     </LinearLayout>
+    
+    
+	<EditText 	
+	    android:id="@+id/editor"
+		android:layout_width="match_parent" 
+		android:layout_height="wrap_content"
+		android:gravity="top" 
+		android:inputType="textMultiLine" 
+        android:minLines="3"
+	
+		android:background="@color/miwhite"
+		android:hint="@string/entersms">	    
+	</EditText>
+	
+	<TextView
+        android:id="@+id/msgsend_tv5"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sample" 
+        android:paddingTop="5dip"
+        android:gravity="center">
+    </TextView>
+
+    <ListView
+        android:id="@+id/msgsend_lvs"
+        android:layout_width="match_parent"
+        android:layout_height="0dip" 
+        android:layout_weight="100" >
+    </ListView>
+	
+	
+	<LinearLayout android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:orientation="horizontal"
+		style="@android:style/ButtonBar">
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:id="@+id/view_left"
+			android:layout_weight="1" 
+			android:visibility="gone"></TextView>
+		<Button android:id="@+id/btn_send" 
+		    android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:layout_weight="2"
+			android:text="@string/send" />
+		<Button android:id="@+id/btn_split" 
+		    android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:layout_weight="2"
+			android:text="@string/delete" />
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:id="@+id/view_right"
+			android:layout_weight="1" 
+			android:visibility="gone"></TextView>
+	</LinearLayout>
+</LinearLayout>
